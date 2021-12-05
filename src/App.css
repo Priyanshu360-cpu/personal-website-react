@@ -1,0 +1,339 @@
+.App {
+  z-index: 0;
+
+}
+.container { position:relative; }
+.App-logo {
+  height: 40vmin;
+  left: 38%;
+  top: 18%;
+  position: absolute;
+  pointer-events: none;
+  border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 1;
+   
+}
+
+.left {
+  height: 40vmin;
+  left: 45%;
+  top: 28%;
+  position: absolute;
+  pointer-events: none;
+  border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 0;
+}
+.right {
+  height: 40vmin;
+  left: 30%;
+  top: 28%;
+  position: absolute;
+  pointer-events: none;
+  border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 0;
+}
+.bright {
+  height: 40vmin;
+  left: 30%;
+  top: 62%;
+  position: absolute;
+  pointer-events: none;
+  border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 0;
+}
+.lright {
+  height: 40vmin;
+  left: 56%;
+  top: 62%;
+  position: absolute;
+  pointer-events: none;
+  border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.bg {
+
+  background-image: url("https://wallpapercave.com/wp/wp2181664.jpg");
+
+  
+  height: 100%;
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  z-index: 0;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#myVideo {
+  position: relative;
+  
+  object-fit: cover;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  min-width: 100%;
+  min-height: 100%;
+  background: 100%;
+  z-index:0;
+}
+.viewport-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.marqueestyle { 
+  position: relative;
+  top:20%;
+  padding: 10px 5px 5px 5px;
+}
+.newaa{
+  position:relative;
+  z-index:6;
+}
+.marqueetext {
+  bottom: 0;
+  top:20%;
+  position: relative;
+  border: 1px dashed #636363;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background: #fff;
+  margin: 0px 10px;
+  padding: 20px;
+}
+.content {
+  position: relative;
+  bottom: 0;
+  top:20%;
+  background-image: url(https://media1.tenor.com/images/2b9147979470b7e5578c2fb71c1553ac/tenor.gif?itemid=11669625) ;
+  background-size: cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+  color: #FCFCFC;
+  width: 100%;
+  padding: 20px;
+  z-index:1;
+  
+  
+} 
+.texth {
+  
+  background-image: url(https://media.discordapp.net/attachments/750089917501014036/915293003575357440/train-alone.gif) ;
+  width: 40%;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat:  no-repeat;
+  padding: 15px;
+  font-style: italic; 
+}
+
+.button {
+  border: none;
+  color: black;
+  top:32%;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {background-color: whitesmoke}
+
+.button2 {background-color: #00ffc3;}
+.texta {
+  position: absolute;
+  text-align: center;
+  top:198%;
+  background-image: url(https://qph.fs.quoracdn.net/main-qimg-95877e6c9422a97badf555c5db9d4dcc) ;
+  color: #61dafb;
+  height:80%;
+  width: 100%;
+  z-index:3;
+}
+.textap {
+  position: center;
+  background: rgba(0, 0, 0, 0.5);
+  width: 300%;
+  top:0;
+  padding: 20px;
+  z-index:1;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+* {box-sizing: border-box}
+body{
+  background-image: url(https://wallpapercave.com/wp/wp2181664.jpg) ;
+  background-position:  top;
+  background-repeat:  repeat;
+}
+
+.cardo{
+  position: absolute;
+  z-index: 4;
+  top:197%;
+  width:50%;
+  height:20%; 
+  left:22%;
+  padding:20px;
+}
+.skillcard{
+  position: relative;
+  width: 90%;
+  margin:30px auto;
+  background-image: url(https://cdn.dribbble.com/users/50886/screenshots/2710024/coding.gif) ;
+padding-top: 10px;
+height: auto;
+border-radius: 15px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.skillcard > h1{
+  font-family: 'Courier New', Courier, monospace;
+ text-align: center; 
+ color:#000;
+ width:200px;
+ padding:5px 10px 5px 10px;
+  border-radius: 10px;
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  margin:5px auto;
+}
+.skillcard > p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 20px;
+  color:#fff;
+  font-weight: 900;
+  font-size: 20px;
+  width:150px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 30px;
+  border:2px solid #d4fc79;
+  
+}
+.container {
+  margin:20px;
+width: 90%;
+background-color: #ddd;
+border-radius: 30px;
+
+
+}
+
+.skills {
+text-align: right;
+padding-top: 10px;
+padding-bottom: 10px;
+color: white;
+margin:10px 0 20px 0;
+border-radius: 30px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skills > span{
+  margin-right:20px;
+  font-weight: 900;
+  color: #202124;
+}
+.html {
+  width: 90%; 
+  background-image: url(https://cdn.dribbble.com/users/332742/screenshots/1828833/js-conf-present.gif) ;
+  background-position:  top;
+}
+.css {width: 80%; 
+  background-color: #2196F3;
+ 
+}
+.js {width: 65%;
+   
+   background-color: #808080;
+   
+  }
+.php {width: 60%; 
+  background-color: #f44336;
+  
+}
