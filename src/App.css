@@ -131,7 +131,7 @@
 }
 .newaa{
   position:relative;
-  z-index:6;
+  z-index:3;
 }
 .marqueetext {
   bottom: 0;
@@ -144,6 +144,31 @@
   margin: 0px 10px;
   padding: 20px;
 }
+.blinker {
+  z-index:32;
+  position:absolute;
+  top:40%;
+  text-align: center;
+  left:26%;
+}
+.belu{
+  z-index:32;
+  position:absolute;
+  top:60%;
+  text-align: center;
+  left:43%;
+  font-family:'Helvetica';
+  color:#7c7c7c;
+  background-image: url(https://static.wixstatic.com/media/8c47d0_7233a5ba0e3247fc9d565a4e358360df~mv2.gif) ;
+}
+.beluw{
+  z-index:32;
+  position:absolute;
+  top:60%;
+  text-align: center;
+  left:46%;
+  font-family:'Helvetica';
+}
 .content {
   position: relative;
   bottom: 0;
@@ -153,9 +178,10 @@
   background-position: top;
   background-repeat:  no-repeat;
   color: #FCFCFC;
-  width: 100%;
+  width: 150%;
+  height:100%;
   padding: 20px;
-  z-index:1;
+  z-index:3;
   
   
 } 
@@ -186,12 +212,10 @@
 
 .button2 {background-color: #00ffc3;}
 .texta {
-  position: absolute;
+  position: relative;
   text-align: center;
-  top:198%;
   background-image: url(https://qph.fs.quoracdn.net/main-qimg-95877e6c9422a97badf555c5db9d4dcc) ;
   color: #61dafb;
-  height:80%;
   width: 100%;
   z-index:3;
 }
@@ -220,7 +244,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow-y: hidden;
-  background-color: #333;
   position: fixed;
   top: 0;
   z-index: 3;
@@ -245,6 +268,7 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #04AA6D;
+  z-index: 32;
 }
 * {box-sizing: border-box}
 body{
