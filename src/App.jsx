@@ -1,21 +1,54 @@
+
 import logo from './logo.svg';
-import { useState } from "react";
+import mypic from './mypic.png';
 import './App.css';
 import './textfont.css';
+import './night.css';
 import left from './left.png';
 import right from './right.png';
-import video from './bga2.mp4';
+import video from './bf.mp4';
+import { useState, useEffect } from "react";
+import ReactDOM from "react-dom";
+import { render } from '@testing-library/react';
 var viewportHeader = document.querySelector(".viewport-header");
-
 document.body.addEventListener("scroll", function(event) {
   var opacity = (document.body.offsetHeight - document.body.scrollTop) / document.body.offsetHeight;
   var scale = (document.body.offsetHeight - document.body.scrollTop) / document.body.offsetHeight;
   document.documentElement.style.setProperty('--headerOpacity', opacity);
   document.documentElement.style.setProperty('--headerScale', scale);
 });
+class test{
+  constructor(){
+   this.name="This"
+  }
+}
+function Appu() {
+  const [count, setCount] = useState("");
+  const name=["I","s","\n","P","r","i","y","a","n","s","h","u"]
+  useEffect(() => {
+    for(let i=0;i<name.length;i++)
+    setTimeout(() => {
+      setCount((count) => count + name[i]);
+    }, (i+1)*1000);
+  } ,[]);
+  return <div class ="glow">{new test().name} {count} </div>;
+}
+function Appus() {
+  const [count, setCount] = useState("");
+  const name=["DESKTOP DEVELOPER","\n","APP DEVELOPER","\n","GAME DEVELOPER","\n","GO-LANG LOVER","\n"]
+  useEffect(() => {
+    for(let i=0;i<name.length;i++)
+    setInterval(() => {
+      setCount((count) => name[i]);
+    }, (i+1)*1000);
+  } ,[]);
+  return  <div class = "belu">{count}</div> ;
+}
 
 function App() {
+ 
   return (
+    
     <>
     <body>
       
@@ -23,24 +56,29 @@ function App() {
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'></link>
     <video autoPlay muted loop id="myVideo" source src={video} type="video/mp4">
 </video>
-<div class = "App">
-     <a href = "https://www.goolge.com"><img src = "https://media.discordapp.net/attachments/750089917501014036/913134398914834502/IMG_20211023_175855_214.jpg" class = "App-logo" alt = "logo" ></img></a>
-     <img src = {left} class = "left"></img>
-     <img src = {right} class = "right"></img>
-     <div class = "bright">
+<div class = "blinker"><a href="https://ww.google.com"><Appu></Appu></a></div>
+<Appus></Appus>
+<div class = "beluw">
+<div class = "bright">
      
-     <button  type="button" class="button button1"> 
-     <img src="https://cdn.discordapp.com/avatars/736232217956843590/bd518c73ae40386d7899b0a6435f14db.png?size=32" /><a href = "https://github.com/Priyanshu360-cpu">Github</a>
-  </button>
-  </div>
-  <div class = "lright">
-     <button onclick="window.location.href='/edit/{{.Title}}';" class="button button2">
-     <img src="https://cdn.discordapp.com/emojis/868562770277318698.gif?size=32" /> LinkedIn 
-  </button>
-  </div>
+     <script source="./button.js"></script>
+          <div class="contentse">
+             <i class="fas fa-sun"></i>
+             &nbsp;&nbsp;&nbsp;
+             <input type="checkbox" id="tooglenight" class="cbx hidden"/>
+             <label for="tooglenight" class="switch"></label>
+             &nbsp;&nbsp;&nbsp;
+             <i class="fas fa-moon"></i>
+         </div>
+       </div>
+</div>
+<div class = "App">
+
+     
 </div>
 <div class = "viewport-header">
 <div class = "content">
+  
 <div class = "glow"><a href = "https://github.com/Priyanshu360-cpu">About Me</a></div>
   <div class = "texth"><p><img src = "https://cdn.discordapp.com/emojis/779358851690528808.gif?size=32"></img>Hello my Name is Priyanshu, an Active Learner developing things</p>
   <p><img src = "https://cdn.discordapp.com/emojis/779358851690528808.gif?size=32"></img>I completed my schooling in India and am currently doing btech in Computer </p>
@@ -55,6 +93,14 @@ function App() {
   
 </div>
 </div>
+<div class = "newaa">
+<marquee behavior="alternate" direction="left" class="marqueestyle" onmouseover="this.stop();" onmouseout="this.start();">
+                            <span class="marqueetext">📢<a href = "https://www.instagram.com/priyanshu.__0007/">Website releasing Soon!</a></span>
+
+            </marquee>
+            </div>
+            <div class = "texta">
+            <iframe src="https://discordapp.com/widget?id=701041158876299373&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 <div class = "cardo">
 <div class="skillcard">
 <h1>My Skills</h1>
@@ -80,15 +126,8 @@ function App() {
 </div>
 </div>
 </div>
-<div class = "texta">
-
 </div> 
-<div class = "newaa">
-<marquee behavior="alternate" direction="left" class="marqueestyle" onmouseover="this.stop();" onmouseout="this.start();">
-                            <span class="marqueetext">📢<a href = "https://www.instagram.com/priyanshu.__0007/">Website releasing Soon!</a></span>
 
-            </marquee>
-            </div>
 <ul>
 
   <li><a class="active" href="#home">Priyanshu</a></li>
