@@ -4,7 +4,7 @@ import './App.css';
 import './textfont.css';
 import './night.css';
 import left from './left.png';
-import './button';
+
 import right from './right.png';
 import video from './bf.mp4';
 import { useState, useEffect } from "react";
