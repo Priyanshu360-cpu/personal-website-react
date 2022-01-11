@@ -2,18 +2,25 @@
   z-index: 0;
 
 }
+.linked{
+  position:absolute;
+  top:390%;
+  left:71%;
+  padding:20px;
+  Z-INDEX:3;
+}
 .container { position:relative; }
 .App-logo {
   height: 40vmin;
-  left: 38%;
-  top: 18%;
+  left: 68%;
+  top: 185%;
   position: absolute;
   pointer-events: none;
   border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     -o-border-radius: 50%;
-    z-index: 1;
+    z-index: 3;
    
 }
 
@@ -219,6 +226,65 @@
   width: 100%;
   z-index:3;
 }
+.skillsbg{
+  position:absolute;
+  height:68%;
+  width: 100%;
+  z-index:1;
+  top:357%;
+  
+  
+  background: #FFCBCB;
+}
+.proj{
+  z-index:32;
+  height:92%;
+  position:absolute;
+  top:5%;
+  width:25%;
+  left:3%;
+  background:#FCFCFC;
+  color:white;
+  text-decoration-color: #2196F3;
+  background-position:center;
+  background-image:url(https://cdn.discordapp.com/attachments/921847267529490485/930490402035859476/33-331434_xamarin-for-android-hd-wallpaper-android-logo.png);
+}
+.proi1{
+  z-index:33;
+  height:100%;
+  position:absolute;
+  color:#0a0b0e;
+  width:28%;
+  left:36%;
+  background:#FCFCFC;
+  background-position: top;
+  background-image: url(https://cdn.wallpapersafari.com/34/55/8ciD7v.png);
+}
+proj1.object1{
+  object-position: center top;
+}
+.proj2{
+  z-index:32;
+  height:92%;
+  position:absolute;
+  top:5%;
+  width:25%;
+  left:72%;
+  background:#FCFCFC;
+  background-position:bottom;
+  background-image:url(https://cdn.discordapp.com/attachments/921847267529490485/930501382895714344/1W6rh263TrzZReldwNC7TCg.png);
+}
+.conc{
+  position:absolute;
+  width:100%;
+  top:425%;
+  height:18%;
+  z-index:2;
+  text-align:center;
+  color: white;
+  text-decoration-color: #2196F3;
+  background:#01203a;
+}
 .textap {
   position: center;
   background: rgba(0, 0, 0, 0.5);
@@ -280,10 +346,10 @@ body{
 .cardo{
   position: absolute;
   z-index: 4;
-  top:197%;
+  top:97%;
   width:50%;
   height:20%; 
-  left:22%;
+  left:1%;
   padding:20px;
 }
 .skillcard{
