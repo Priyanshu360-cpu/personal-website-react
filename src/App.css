@@ -274,8 +274,14 @@ proj1.object1{
   background-position:bottom;
   background-image:url(https://cdn.discordapp.com/attachments/921847267529490485/930501382895714344/1W6rh263TrzZReldwNC7TCg.png);
 }
+
+.mapper{
+  position:relative;
+  width:100%;
+  height:89%;
+}
 .conc{
-  position:absolute;
+  position:relative;
   width:100%;
   top:425%;
   height:18%;
@@ -346,11 +352,12 @@ body{
 .cardo{
   position: absolute;
   z-index: 4;
-  top:97%;
+  top:112%;
   width:50%;
   height:20%; 
   left:1%;
   padding:20px;
+  
 }
 .skillcard{
   position: relative;
