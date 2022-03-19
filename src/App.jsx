@@ -1,14 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import './textfont.css';
 import './night.css';
-import left from './left.png';
-
-import right from './right.png';
 import video from './bf.mp4';
 import { useState, useEffect } from "react";
-import ReactDOM from "react-dom";
-import { render } from '@testing-library/react';
 var viewportHeader = document.querySelector(".viewport-header");
 document.body.addEventListener("scroll", function(event) {
   var opacity = (document.body.offsetHeight - document.body.scrollTop) / document.body.offsetHeight;
