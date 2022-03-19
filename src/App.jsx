@@ -1,5 +1,4 @@
 import logo from './logo.svg';
-import mypic from './mypic.png';
 import './App.css';
 import './textfont.css';
 import './night.css';
