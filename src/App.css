@@ -12,9 +12,8 @@
 .container { position:relative; }
 .App-logo {
   height: 40vmin;
-  left: 68%;
-  top: 185%;
-  position: absolute;
+  left:48%;
+  position: relative;
   pointer-events: none;
   border-radius: 50%;
     -moz-border-radius: 50%;
@@ -47,6 +46,18 @@
     -webkit-border-radius: 50%;
     -o-border-radius: 50%;
     z-index: 0;
+}
+.head{
+  position:relative;
+}
+.about{
+  position:relative;
+}
+.skill{
+  position:relative;
+}
+.last{
+  position:relative;
 }
 .bright {
   height: 40vmin;
@@ -161,7 +172,7 @@
 .belu{
   z-index:32;
   position:absolute;
-  top:60%;
+  top:80%;
   text-align: center;
   left:43%;
   font-family:'Helvetica';
@@ -232,9 +243,11 @@
   width: 100%;
   z-index:1;
   top:357%;
+  background-position: center;
+  background-size: cover;
+  background-repeat:  no-repeat;
+  background-image:url(https://i.pinimg.com/originals/24/5f/47/245f47339f19df87338b0609a8132f01.gif);
   
-  
-  background: #FFCBCB;
 }
 .proj{
   z-index:32;
