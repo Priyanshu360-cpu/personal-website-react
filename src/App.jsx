@@ -155,7 +155,7 @@ function App() {
      
      <div class="conc">
        <p>Made with Reactjs with ❤️</p>
-       <p>Shoot me an email at <a href="tpriyanshu775@gmail.com">tpriyanshu775@gmail.com</a></p>
+       <p>Shoot me an email at <a href="mailto:tpriyanshu775@gmail.com">tpriyanshu775@gmail.com</a></p>
        </div>
      
      </body>
