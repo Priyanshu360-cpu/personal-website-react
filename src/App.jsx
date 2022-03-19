@@ -111,6 +111,7 @@ function App() {
               <div class = "proi1"><img id="object1" src="https://cdn.discordapp.com/avatars/741280410180386947/97ddc40395dfa5312cdbf02f4da07d7a.png?size=64"></img><p>Techie is a Multifunctioncal bot built with Javascript</p><p>From lavalink to providing safe environemnt It does all</p><p> listen to songs and show others what you are listening with Techie.</p><button class="button button2" onClick={onClickUrl('https://top.gg/bot/741280410180386947')}>Visit</button></div>
               <div class = "proj2"><img src="https://cdn.discordapp.com/avatars/798655819033608262/bb6accbe3c1ac258c138d151f503911a.png?size=64"></img><p>Cordy is a npm package which eases your bot making</p><p>Cordy has support for Discordjs</p><p>You can build a bot with cordy with no coding experience before.</p><button class="button button2" onClick={onClickUrl('https://www.npmjs.com/package/cordy/v/1.0.5?spm=a2c6h.24755359.0.0.74a23a2bsFqyoJ&file=1.0.5')}>Visit</button></div>
             <iframe src="" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+<div class="Mapper">
 <div class = "cardo">
 <div class="skillcard">
 <h1>My Skills</h1>
@@ -137,7 +138,7 @@ function App() {
 </div>
 </div>
 </div> 
-
+</div>
 <ul>
 
   <li><a class="active" href="#home">Priyanshu</a></li>
