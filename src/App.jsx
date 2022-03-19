@@ -28,7 +28,7 @@ function Appu() {
 }
 function Appus() {
   const [count, setCount] = useState("");
-  const name=["DESKTOP DEVELOPER","\n","APP DEVELOPER","\n","GAME DEVELOPER","\n","GO-LANG LOVER","\n"]
+  const name=["DESKTOP DEVELOPER","\n","APP DEVELOPER","\n","SYSTEM DEVELOPER","\n","GO-LANG LOVER","\n","\n","RUST USER"]
   useEffect(() => {
     for(let i=0;i<name.length;i++)
     setInterval(() => {
