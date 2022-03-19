@@ -33,7 +33,7 @@ function Appu() {
 }
 function Appus() {
   const [count, setCount] = useState("");
-  const name=["DESKTOP DEVELOPER","\n","APP DEVELOPER","\n","GAME DEVELOPER","\n","GO-LANG LOVER","\n"]
+  const name=["DESKTOP DEVELOPER","\n","APP DEVELOPER","\n","GAME DEVELOPER","\n","GO-LANG LOVER","\n","\n","RUST-USER"]
   useEffect(() => {
     for(let i=0;i<name.length;i++)
     setInterval(() => {
@@ -151,14 +151,12 @@ function App() {
 
 
      </div>
-     <div class ="skillsbg"></div>
+     
      <div class="conc">
        <p>Made with Reactjs with ❤️</p>
        <p>Shoot me an email at <a href="tpriyanshu775@gmail.com">tpriyanshu775@gmail.com</a></p>
        </div>
-     <div class = "linked"><button onclick={() =><clicker></clicker>} class="button button2">
-     <img src="https://cdn.discordapp.com/emojis/868562770277318698.gif?size=32" /> LinkedIn 
-  </button></div>
+     
      </body>
      
 </>
