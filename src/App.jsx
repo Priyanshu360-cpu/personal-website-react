@@ -63,7 +63,7 @@ function App() {
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'></link>
     <video autoPlay muted loop id="myVideo" source src={video} type="video/mp4">
 </video>
-<div class = "blinker"><a href="https://ww.google.com"><Appu></Appu></a></div>
+<div class = "blinker"><a href="https://github.com/Priyanshu360-cpu/personal-website-react"><Appu></Appu></a></div>
 <Appus></Appus>
 <div class = "beluw">
 <div class = "bright">
@@ -97,7 +97,6 @@ function App() {
   <p><img src = "https://cdn.discordapp.com/emojis/779358851690528808.gif?size=32"></img>I have a deep interest in space and everything related with space attracts me towards it. </p>
   <p> <img src = "https://cdn.discordapp.com/emojis/779358851690528808.gif?size=32"></img>am a keen obeserver and i actively write blogs on my Linked In account :) </p></div>
 
-  <a href = "https://www.goolge.com"><img src = "https://media.discordapp.net/attachments/750089917501014036/913134398914834502/IMG_20211023_175855_214.jpg" class = "App-logo" alt = "logo" ></img></a>
 </div>
 </div>
 <div class = "newaa">
@@ -111,33 +110,7 @@ function App() {
               <div class = "proi1"><img id="object1" src="https://cdn.discordapp.com/avatars/741280410180386947/97ddc40395dfa5312cdbf02f4da07d7a.png?size=64"></img><p>Techie is a Multifunctioncal bot built with Javascript</p><p>From lavalink to providing safe environemnt It does all</p><p> listen to songs and show others what you are listening with Techie.</p><button class="button button2" onClick={onClickUrl('https://top.gg/bot/741280410180386947')}>Visit</button></div>
               <div class = "proj2"><img src="https://cdn.discordapp.com/avatars/798655819033608262/bb6accbe3c1ac258c138d151f503911a.png?size=64"></img><p>Cordy is a npm package which eases your bot making</p><p>Cordy has support for Discordjs</p><p>You can build a bot with cordy with no coding experience before.</p><button class="button button2" onClick={onClickUrl('https://www.npmjs.com/package/cordy/v/1.0.5?spm=a2c6h.24755359.0.0.74a23a2bsFqyoJ&file=1.0.5')}>Visit</button></div>
             <iframe src="" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-<div class="Mapper">
-<div class = "cardo">
-<div class="skillcard">
-<h1>My Skills</h1>
 
-<p>JAVASCRIPT</p>
-<div class="container">
-  <div class="skills html"><span>90%</span></div>
-</div>
-
-<p >GOLANG</p>
-<div class="container">
-  <div class="skills css"><span>80%</span></div>
-</div>
-
-<p>C FAMILY</p>
-<div class="container">
-  <div class="skills js"><span>65%</span></div>
-</div>
-
-<p>JAVA</p>
-<div class="container">
-  <div class="skills php"><span>60%</span></div>
-</div>
-</div>
-</div>
-</div> 
 </div>
 <ul>
 
